@@ -14,8 +14,9 @@
     "jsList" : [
         "src/resource.js",
         "src/config.js",
-        "src/MainMenu/MainMenu.js",
-        "src/MainMenu/Layer/Background.js",
-        "src/MainMenu/Layer/Main.js"
+        "src/Scene/MainMenu/MainMenu.js",
+        "src/Scene/MainMenu/Layer/Background.js",
+        "src/Scene/MainMenu/Layer/Main.js",
+        "src/Scene/MainMenu/Layer/Unlock.js"
     ]
 }

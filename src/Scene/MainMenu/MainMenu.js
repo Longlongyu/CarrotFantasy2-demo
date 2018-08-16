@@ -3,6 +3,7 @@ var MainMenuScene = cc.Scene.extend({
 	mainLayer : null,
 	ctor : function() {
 		this._super();
+		cc.audioEngine.playMusic(res.sd_mm_BGMusic_mp3, true);
 	},
 	onEnter : function () {
 		this._super();

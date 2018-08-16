@@ -5,7 +5,7 @@ var MMBackgroundLayer = cc.Layer.extend({
 		return true;
 	 },
 	loadBackground : function () {
-		var node = new cc.Sprite("res/MainMenu/zh/front_bg.png");
+		var node = new cc.Sprite(res.FrontBg_png);
 		this.addChild(node);
 		node.setPosition(cc.winSize.width / 2, cc.winSize.height / 2);
 	}
